@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmutableCaches", "ImmutableCaches\ImmutableCaches.csproj", "{3F64CFDF-65F3-4B99-AA98-C2ADC0E9B567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImmutableCaches.UnitTests", "ImmutableCaches.UnitTests\ImmutableCaches.UnitTests.csproj", "{4FF951B3-ACB7-48C4-9888-461B8CF90F4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F64CFDF-65F3-4B99-AA98-C2ADC0E9B567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F64CFDF-65F3-4B99-AA98-C2ADC0E9B567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F64CFDF-65F3-4B99-AA98-C2ADC0E9B567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F64CFDF-65F3-4B99-AA98-C2ADC0E9B567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF951B3-ACB7-48C4-9888-461B8CF90F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF951B3-ACB7-48C4-9888-461B8CF90F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF951B3-ACB7-48C4-9888-461B8CF90F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF951B3-ACB7-48C4-9888-461B8CF90F4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82F755AB-9D41-422A-A67C-2867136FF1B3}
+	EndGlobalSection
+EndGlobal
