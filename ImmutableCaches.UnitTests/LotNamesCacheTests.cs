@@ -30,7 +30,7 @@ namespace ImmutableCaches.UnitTests
 
                 var cache = new MemoryCache(new MemoryCacheOptions());
                 var service = new LotNamesCache(dbContext, cache);
-                Assert.IsFalse(cache.TryGetValue(LotNamesCache.CacheKey, out _));   // no cache at the intial stage
+                Assert.IsFalse(cache.TryGetValue(LotNamesCache.CacheKey, out _));   // no cache at the initial stage
 
                 var cachedLots = await service.LotNamesDictionary();
                 Assert.IsTrue(cache.TryGetValue(LotNamesCache.CacheKey, out _));    // stored cache in memory due to query
